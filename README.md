@@ -12,17 +12,11 @@
 
 ## The Planet
 
-Example of a rover's on a 3x3 planet
-| --  | --  | --  |
-|-----|-----|-----|
-| 0,2 | 1,2 | 2,2 |  
-| 0,1 | 1,1 | 2,1 | 
-| 0,0 | 1,0 | 2,0 | 
-
-Markdown | Less | Pretty
+Example | 3x3 | Planet
 --- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+0,2 | 1,2 | 2,2
+0,1 | 1,1 | 2,1
+0,0 | 1,0 | 2,0
 
 # Specification for Mars Rover API with Slicing
 Develop an API that moves a rover around a planet. The planet is represented as a grid with x and y coordinates. The rover is also facing in a direction. The direction can be north (N), south (S), west (W) or east (E). The input received by the rover is a string representing the commands it needs to execute.
@@ -62,7 +56,7 @@ The rover shall be able to execute arbitrary sequences of “f”, “b”, “l
 
 **Example:** A rover at position (0,0,N) moves to position (2,2,E) after executing “ffrff”.
 
-##Wrapping
+## Wrapping
 Since the planet is a sphere the rover wraps at the opposite edge once it moves over it.
 
 **Requirement:** Compute the position of the rover moving over the edges. The rover shall spawn on the opposite side.
@@ -110,4 +104,6 @@ Upon processing the string of commands, the rover returns its position and direc
 
 
 ## Fonts
+TxaviGost - Devscola | [Go..](https://www.youtube.com/watch?v=saNHzjHwbsc) 
+Kata log | [Go..](http://kata-log.rocks/mars-rover-kata)
 link.springer | [Go...](https://link.springer.com/article/10.1007/s10664-016-9471-3)
