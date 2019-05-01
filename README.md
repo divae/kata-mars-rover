@@ -13,11 +13,16 @@
 ## The Planet
 
 Example of a rover's on a 3x3 planet
-|     |     |     |
+| --  | --  | --  |
 |-----|-----|-----|
 | 0,2 | 1,2 | 2,2 |  
 | 0,1 | 1,1 | 2,1 | 
 | 0,0 | 1,0 | 2,0 | 
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 # Specification for Mars Rover API with Slicing
 Develop an API that moves a rover around a planet. The planet is represented as a grid with x and y coordinates. The rover is also facing in a direction. The direction can be north (N), south (S), west (W) or east (E). The input received by the rover is a string representing the commands it needs to execute.
