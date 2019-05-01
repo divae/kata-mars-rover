@@ -104,6 +104,6 @@ Upon processing the string of commands, the rover returns its position and direc
 
 
 ## Fonts
-TxaviGost - Devscola | [Go..](https://www.youtube.com/watch?v=saNHzjHwbsc) 
-Kata log | [Go..](http://kata-log.rocks/mars-rover-kata)
-link.springer | [Go...](https://link.springer.com/article/10.1007/s10664-016-9471-3)
+* TxaviGost - Devscola | [Go..](https://www.youtube.com/watch?v=saNHzjHwbsc) 
+* Kata log | [Go..](http://kata-log.rocks/mars-rover-kata)
+* link.springer | [Go...](https://link.springer.com/article/10.1007/s10664-016-9471-3)
