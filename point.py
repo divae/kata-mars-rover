@@ -8,12 +8,6 @@ class Point:
 
         self._generate(position,facing)
 
-    def position(self):
-        return [self.eye_x,self.eye_y]
-
-    def orientation(self):
-        return self.facing        
-
     def _generate(self,position,facing):
         self.eye_x = position[0]
         self.eye_y = position[1]
