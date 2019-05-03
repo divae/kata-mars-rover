@@ -31,9 +31,7 @@ class TestPoint(unittest.TestCase):
         facing = 'W'
         pattern = '.*{}.*{}.*{}'.format(eye_x,eye_y,facing)
 
-
         STRpoint = Point(start_position,facing) 
-        print(STRpoint)
 
         result = re.match(str(pattern),str(STRpoint))
 
