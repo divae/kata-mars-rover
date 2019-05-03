@@ -1,5 +1,12 @@
 # Mars Rover
 
+## Setup
+Does not need any additional libraries, as unittest is part of the standard Python libarary.
+
+Running the tests
+To execute the tests `run python -m unittest discover`
+
+
 ## Rules:
 
 - You are given the initial **starting point (x,y)** of a rover and the **direction (N,S,E,W)** it is facing.
