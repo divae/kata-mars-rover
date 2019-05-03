@@ -25,16 +25,15 @@ class TestPoint(unittest.TestCase):
         self.assertRaises(Exception, init_point )
 
     def test_class_str(self):
-        eye_x = 1
+        eye_x = 0
         eye_y = 0
         start_position = [eye_x,eye_y]
-        facing = 'W'
+        facing = 'N'
         pattern = '.*{}.*{}.*{}'.format(eye_x,eye_y,facing)
 
-        STRpoint = Point(start_position,facing) 
+        STRpoint = Point() 
 
         result = re.match(str(pattern),str(STRpoint))
-
         self.assertTrue(result)     
    
 

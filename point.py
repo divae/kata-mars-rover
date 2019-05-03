@@ -2,7 +2,6 @@ class Point:
 
     def __init__(self,position=[0,0],facing='N'):
         self.CARDINAL_POINTS = ('N','E','S','W')
-
         self._check_positions(position[0],position[1])
         self._check_cardinal_point(facing)
 
