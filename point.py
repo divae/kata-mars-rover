@@ -1,14 +1,15 @@
 class Point:
-    def __init__(self,position,direction):
+    def __init__(self,position):
         self._check(position[0],position[1])
 
+        self._generate(position)
+
+    def position(self):
+            return [self.eye_x,self.eye_y]
+
+    def _generate(self,position):
         self.eye_x = position[0]
         self.eye_y = position[1]
-
-        self.direction = direction   
-
-    def generate(self):
-        return [self.eye_x,self.eye_y]
 
     def _check(self,x,y):
         if self._is_valid_point(x,y) != True:
