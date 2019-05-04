@@ -8,28 +8,16 @@ class TestPoint(unittest.TestCase):
         eye_x = None
         eye_y = 'E'
         start_position = [eye_x,eye_y]
-        facing = 'N'
-
-        init_point = lambda: Point([eye_x,eye_y],facing)
+        
+        init_point = lambda: Point([eye_x,eye_y])
 
         self.assertRaises(Exception, init_point)
-
-    def test_exception_direction_error(self):
-        eye_x = 0
-        eye_y = 0
-        start_position = [eye_x,eye_y]
-        facing = 'T'
-
-        init_point = lambda: Point(start_position,facing)
-
-        self.assertRaises(Exception, init_point )
 
     def test_class_str(self):
         eye_x = 0
         eye_y = 0
         start_position = [eye_x,eye_y]
-        facing = 'N'
-        pattern = '.*{}.*{}.*{}'.format(eye_x,eye_y,facing)
+        pattern = '.*{}.*{}'.format(eye_x,eye_y)
 
         STRpoint = Point() 
 
