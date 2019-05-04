@@ -1,6 +1,6 @@
 import unittest 
-from rover import Rover
-from point import Point 
+from src.rover import Rover
+from src.point import Point 
 import re
       
 class TestRover(unittest.TestCase):  
