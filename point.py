@@ -4,6 +4,12 @@ class Point:
         self._check_positions(position[0],position[1])
         self._generate(position,facing)
 
+    def eye_x(self):
+        return self.eye_x
+
+    def eye_y(self):
+        return self.eye_y
+
     def _generate(self,position,facing):
         self.eye_x = position[0]
         self.eye_y = position[1]
