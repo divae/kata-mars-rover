@@ -15,6 +15,6 @@ class Rover:
         return facing not in self.CARDINAL_POINTS
 
     def __str__(self):
-        return "Point x:{} y:{} Facing:{}".format(self.point.eye_x, self.point.eye_y,self.facing)
+        return "Rover x:{} y:{} Facing:{}".format(self.point.axe_x, self.point.axe_y,self.facing)
 
 

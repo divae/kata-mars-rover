@@ -5,19 +5,19 @@ import re
 class TestPoint(unittest.TestCase):  
 
     def test_has_error_in_starting_point(self):
-        eye_x = None
-        eye_y = 'E'
-        start_position = [eye_x,eye_y]
+        axe_x = None
+        axe_y = 'E'
+        start_position = [axe_x,axe_y]
         
-        init_point = lambda: Point([eye_x,eye_y])
+        init_point = lambda: Point([axe_x,axe_y])
 
         self.assertRaises(Exception, init_point)
 
     def test_class_str(self):
-        eye_x = 0
-        eye_y = 0
-        start_position = [eye_x,eye_y]
-        pattern = '.*{}.*{}'.format(eye_x,eye_y)
+        axe_x = 0
+        axe_y = 0
+        start_position = [axe_x,axe_y]
+        pattern = '.*{}.*{}'.format(axe_x,axe_y)
 
         STRpoint = Point() 
 

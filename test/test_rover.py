@@ -5,10 +5,10 @@ import re
       
 class TestRover(unittest.TestCase):  
     def test_start_initial_point(self):
-        eye_x = 0
-        eye_y = 0
+        axe_x = 0
+        axe_y = 0
         facing = 'N'
-        pattern = '.*{}.*{}.*{}'.format(eye_x,eye_y,facing)
+        pattern = '.*{}.*{}.*{}'.format(axe_x,axe_y,facing)
 
         end_point = Point()
 
